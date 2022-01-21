@@ -1,0 +1,55 @@
+.form {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.form input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.2rem;
+}
+
+input:focus {
+  border-bottom: 1px solid #000;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #4caf50;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: #619b63;
+}
+
+.naviBtn {
+  background-color: rgb(85, 14, 151);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  margin-top: 10rem;
+  cursor: pointer;
+  text-align: center;
+}
